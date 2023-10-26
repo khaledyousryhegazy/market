@@ -1,0 +1,52 @@
+.discount {
+  padding: 70px 0;
+}
+
+.discount .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  place-items: center;
+  gap: 30px;
+}
+
+.discount .wish_list_heart {
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: var(--green);
+  cursor: pointer;
+}
+
+.discount img {
+  width: 150px;
+  margin: auto;
+}
+.discount button:last-child {
+  border: none;
+  background-color: var(--green-50);
+
+  font-weight: 600;
+}
+.discount button:last-child:hover {
+  background-color: var(--green);
+}
+.discount .product_discount {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: var(--light-yellow);
+  font-size: 13px;
+  font-weight: 500;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount span:last-child {
+  color: var(--green);
+  font-weight: 600;
+}

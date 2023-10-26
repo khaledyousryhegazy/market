@@ -1,0 +1,10 @@
+.footer svg {
+  transition: 0.3s;
+}
+.footer svg:hover {
+  color: var(--green);
+}
+
+.footer a {
+  text-decoration: none;
+}
